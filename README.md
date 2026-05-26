@@ -1,14 +1,14 @@
 # kohelp
 
-Linux `man` 페이지를 한국어로 번역해 주는 CLI입니다.
+보안 CLI 도구의 `--help` / `man` 페이지를 한국어로 번역해 주는 CLI입니다.
 
 ```bash
-kohelp ls
-kohelp grep
-kohelp -s 2 open
+kohelp nmap
+kohelp sqlmap
+kohelp hydra
 ```
 
-내부적으로 `man ls`를 실행해 나온 원문을 Gemini API로 번역하고, `json/tta_terms_en_ko_clean.json` 전문용어 사전을 함께 사용합니다. 한 번 번역한 결과는 `~/.cache/kohelp`에 저장되어 다음 실행부터 바로 출력됩니다.
+KISA 보호나라 + NIST CSRC 데이터로 구축한 보안 전문용어 사전을 활용해 `exploit → 익스플로잇`, `payload → 페이로드`, `privilege escalation → 권한 상승` 같은 용어를 정확하게 번역합니다. `man` 페이지가 없는 도구는 `--help` 출력으로 자동 폴백합니다. 한 번 번역한 결과는 `~/.cache/kohelp`에 저장되어 다음 실행부터 바로 출력됩니다.
 
 ## 설치
 
@@ -42,7 +42,7 @@ kohelp --setting
 
 - `man` 명령 사용 가능 여부
 - 가상환경 활성화 여부
-- `json/tta_terms_en_ko_clean.json` 사전 파일 위치
+- `json/security_terms_en_ko.json` 사전 파일 위치
 - Gemini API 키 저장
 - 캐시 디렉터리 생성
 
@@ -61,15 +61,15 @@ kohelp --key "YOUR_GEMINI_API_KEY"
 기본 사용:
 
 ```bash
-kohelp ls
+kohelp nmap
 ```
 
-다른 명령어:
+다른 보안 도구:
 
 ```bash
-kohelp grep
-kohelp find
-kohelp tar
+kohelp sqlmap
+kohelp hydra
+kohelp gobuster
 ```
 
 man section 지정:
@@ -82,35 +82,35 @@ kohelp -s 5 passwd
 캐시를 무시하고 다시 번역:
 
 ```bash
-kohelp --refresh ls
+kohelp --refresh nmap
 ```
 
-번역하지 않고 원문 man 출력만 확인:
+번역하지 않고 원문 출력만 확인:
 
 ```bash
-kohelp --original ls
+kohelp --original nmap
 ```
 
 진행 메시지 숨기기:
 
 ```bash
-kohelp --quiet ls
+kohelp --quiet nmap
 ```
 
 ## 동작 방식
 
 ```text
-kohelp ls 입력
+kohelp nmap 입력
 ↓
-내부적으로 man ls 실행
+man nmap 실행 시도 → 없으면 nmap --help 로 자동 폴백
 ↓
-man 출력 텍스트 수집
+텍스트 수집
 ↓
-Gemini가 원문에서 전문용어 후보 추출
+Gemini API가 보안 전문용어 후보 추출
 ↓
-json/tta_terms_en_ko_clean.json에서 후보 단어 조회
+json/security_terms_en_ko.json에서 후보 단어 조회
 ↓
-조회된 한국어 전문용어 후보를 프롬프트에 넣고 번역
+조회된 한국어 전문용어를 번역 힌트로 주입 후 Gemini가 번역
 ↓
 ~/.cache/kohelp에 번역본 저장
 ↓
@@ -125,7 +125,12 @@ kohelp/
   pyproject.toml
   README.md
   json/
-    tta_terms_en_ko_clean.json
+    security_terms_en_ko.json   # 보안 전문용어 사전 (443개)
+    kisa_terms_ko.json          # KISA 원본 데이터
+    nist_terms_en.json          # NIST 원본 데이터
+  scripts/
+    crawl_kisa.py               # KISA 크롤러
+    build_security_glossary.py  # 용어 사전 생성 스크립트
 ```
 
 ## 캐시와 설정

@@ -1,0 +1,1349 @@
+{
+  "use-after-free": [
+    "Use-After-Free 취약점"
+  ],
+  "메타버스": [
+    "메타버스"
+  ],
+  "traffic light protocol": [
+    "TLP(Traffic Light Protocol)"
+  ],
+  "tlp": [
+    "TLP(Traffic Light Protocol)"
+  ],
+  "zero trust": [
+    "제로트러스트 (Zero Trust)"
+  ],
+  "인공지능": [
+    "인공지능"
+  ],
+  "빅데이터": [
+    "빅데이터"
+  ],
+  "vault 7": [
+    "볼트7(Vault 7)"
+  ],
+  "vault": [
+    "볼트7(Vault 7)"
+  ],
+  "otp": [
+    "OTP(일회용 패스워드, One Time Password)"
+  ],
+  "one time password": [
+    "OTP(일회용 패스워드, One Time Password)"
+  ],
+  "hackathon": [
+    "해커톤(Hackathon)"
+  ],
+  "ethereum classic": [
+    "이더리움 클래식(Ethereum Classic)"
+  ],
+  "ethereum": [
+    "이더리움(Ethereum)"
+  ],
+  "block chain": [
+    "블록체인(block chain)"
+  ],
+  "bitcoin": [
+    "비트코인(Bitcoin)"
+  ],
+  "hyper connected society": [
+    "초연결사회(Hyper Connected Society)"
+  ],
+  "cloud computing": [
+    "클라우드 컴퓨팅(Cloud Computing)"
+  ],
+  "backupcenter": [
+    "백업센터(BackupCenter)"
+  ],
+  "주요정보통신기반시설": [
+    "주요정보통신기반시설"
+  ],
+  "n-": [
+    "N-스크린"
+  ],
+  "nfc": [
+    "NFC(Near Field Communication, 근접 통신)"
+  ],
+  "near field communication": [
+    "NFC(Near Field Communication, 근접 통신)"
+  ],
+  "internet protocol television": [
+    "IPTV(Internet Protocol TeleVision)"
+  ],
+  "iptv": [
+    "IPTV(Internet Protocol TeleVision)"
+  ],
+  "bmt": [
+    "성능시험(BMT : BenchMark Test)"
+  ],
+  "benchmark test": [
+    "성능시험(BMT : BenchMark Test)"
+  ],
+  "cyber security framwork": [
+    "사이버 보안프레임워크(Cyber Security Framwork)"
+  ],
+  "black market": [
+    "블랙마켓(Black market)"
+  ],
+  "contents-platform-network-terminal": [
+    "CPNT(Contents-Platform-Network-Terminal)"
+  ],
+  "cpnt": [
+    "CPNT(Contents-Platform-Network-Terminal)"
+  ],
+  "hacktivism": [
+    "핵티비즘(Hacktivism)"
+  ],
+  "융합보안 리빙랩": [
+    "융합보안 리빙랩"
+  ],
+  "iot": [
+    "IoT보안인증",
+    "사물인터넷(IoT)"
+  ],
+  "국가 보안취약점 관리체계": [
+    "국가 보안취약점 관리체계"
+  ],
+  "hack the challenge": [
+    "핵더챌린지(Hack the Challenge)"
+  ],
+  "신규 취약점 신고 포상제": [
+    "신규 취약점 신고 포상제"
+  ],
+  "상황전파문": [
+    "상황전파문"
+  ],
+  "사이버위기대응 비상대응체계": [
+    "사이버위기대응 비상대응체계"
+  ],
+  "민간분야 사이버위기 경보발령 체계": [
+    "민간분야 사이버위기 경보발령 체계"
+  ],
+  "내서버 돌보미": [
+    "내서버 돌보미"
+  ],
+  "pc": [
+    "내PC 돌보미",
+    "감염PC 사이버치료체계",
+    "좀비PC(ZombiePC)"
+  ],
+  "사이버 위기대응 모의훈련": [
+    "사이버 위기대응 모의훈련"
+  ],
+  "핵더챌린지(개방형 보안취약점 분석) 플랫폼": [
+    "핵더챌린지(개방형 보안취약점 분석) 플랫폼"
+  ],
+  "whistl": [
+    "휘슬(WHISTL)"
+  ],
+  "castle": [
+    "캐슬(CASTLE)"
+  ],
+  "웹변조 탐지시스템": [
+    "웹변조 탐지시스템"
+  ],
+  "비대면 다중이용 서비스 보안취약점 점검": [
+    "비대면 다중이용 서비스 보안취약점 점검"
+  ],
+  "번호도용 문자차단 서비스": [
+    "번호도용 문자차단 서비스"
+  ],
+  "번호변작 보이스피싱 차단 서비스": [
+    "번호변작 보이스피싱 차단 서비스"
+  ],
+  "스미싱 확인 서비스": [
+    "스미싱 확인 서비스"
+  ],
+  "스미싱 대응 시스템": [
+    "스미싱 대응 시스템"
+  ],
+  "국외 파밍사이트 접속 차단 서비스": [
+    "국외 파밍사이트 접속 차단 서비스"
+  ],
+  "피싱사이트 탐지시스템": [
+    "피싱사이트 탐지시스템"
+  ],
+  "honeynet": [
+    "허니넷(HoneyNet)"
+  ],
+  "c-tas": [
+    "사이버 위협정보 분석․공유 시스템(C-TAS: Cyber Threats Analysis & Sharing)"
+  ],
+  "cyber threats analysis": [
+    "사이버 위협정보 분석․공유 시스템(C-TAS: Cyber Threats Analysis & Sharing)"
+  ],
+  "sharing": [
+    "사이버 위협정보 분석․공유 시스템(C-TAS: Cyber Threats Analysis & Sharing)"
+  ],
+  "ddos": [
+    "인터넷 연동구간 DDoS 대응시스템",
+    "DDoS 사이버대피소",
+    "DDoS 공격 (분산 서비스 거부 공격, Distributed Denial of Service Attack)",
+    "분산 서비스 거부 공격(DDoS, Distributed Denial Of Service)"
+  ],
+  "모바일 사이버치료체계": [
+    "모바일 사이버치료체계"
+  ],
+  "전용백신": [
+    "전용백신"
+  ],
+  "웹하드 악성코드 탐지시스템": [
+    "웹하드 악성코드 탐지시스템"
+  ],
+  "mc-finder": [
+    "악성코드 은닉사이트 탐지시스템(MC-Finder)"
+  ],
+  "lapsus": [
+    "랩서스(LAPSUS$) 해커 그룹"
+  ],
+  "lazarus": [
+    "라자루스(Lazarus) 해커 그룹"
+  ],
+  "shadow brokers": [
+    "새도 브로커스(Shadow Brokers)"
+  ],
+  "화이트 햇 콘테스트": [
+    "화이트 햇 콘테스트"
+  ],
+  "codegate": [
+    "CODEGATE"
+  ],
+  "apisc training": [
+    "아・태 정보보호교육 (APISC Training, Asia-Pacific Information Security Center)"
+  ],
+  "asia-pacific information security center": [
+    "아・태 정보보호교육 (APISC Training, Asia-Pacific Information Security Center)"
+  ],
+  "정보보호의 날": [
+    "정보보호의 날"
+  ],
+  "defcon": [
+    "데프콘(DEFCON)"
+  ],
+  "black hat": [
+    "블랙햇(Black hat)"
+  ],
+  "ppp": [
+    "PPP"
+  ],
+  "lulzsec": [
+    "룰즈섹(LulzSec)"
+  ],
+  "julian paul assange": [
+    "어샌지(Julian Paul Assange)"
+  ],
+  "wikileaks": [
+    "위키리크스(WikiLeaks)"
+  ],
+  "anonymous": [
+    "어노니머스(Anonymous)"
+  ],
+  "k-shield": [
+    "케이 쉴드(사이버보안 인력양성 프로그램, K-Shield)"
+  ],
+  "사이버보안 대연합": [
+    "사이버보안 대연합"
+  ],
+  "사이버 위협 인텔리전스 네트워크": [
+    "사이버 위협 인텔리전스 네트워크"
+  ],
+  "ciso": [
+    "정보보호최고책임자(CISO, Chief Information Security Officer)"
+  ],
+  "chief information security officer": [
+    "정보보호최고책임자(CISO, Chief Information Security Officer)"
+  ],
+  "사이버보안전문단": [
+    "사이버보안전문단"
+  ],
+  "민·관합동조사단": [
+    "민·관합동조사단"
+  ],
+  "정보보호 전문서비스 기업": [
+    "정보보호 전문서비스 기업"
+  ],
+  "isac": [
+    "정보공유・분석센터 (ISAC, Information Sharing and Analysis Center)"
+  ],
+  "information sharing and analysis center": [
+    "정보공유・분석센터 (ISAC, Information Sharing and Analysis Center)"
+  ],
+  "ics-cert": [
+    "ICS-CERT"
+  ],
+  "asia-pacific computer emergency response team": [
+    "APCERT(Asia-Pacific Computer Emergency Response Team)"
+  ],
+  "apcert": [
+    "APCERT(Asia-Pacific Computer Emergency Response Team)"
+  ],
+  "forum of incident response and security teams": [
+    "FIRST(Forum of Incident Response and Security Teams)"
+  ],
+  "first": [
+    "FIRST(Forum of Incident Response and Security Teams)"
+  ],
+  "concert": [
+    "한국침해사고대응팀협의회 (CONCERT, Consortium of CERT)"
+  ],
+  "consortium of cert": [
+    "한국침해사고대응팀협의회 (CONCERT, Consortium of CERT)"
+  ],
+  "korea computer emergency response team/coordination center": [
+    "KrCERT/CC (KOREA Computer Emergency Response Team/Coordination Center)"
+  ],
+  "krcert/cc": [
+    "KrCERT/CC (KOREA Computer Emergency Response Team/Coordination Center)"
+  ],
+  "cert": [
+    "침해사고대응팀(CERT, Computer Emergency Response Team)"
+  ],
+  "computer emergency response team": [
+    "침해사고대응팀(CERT, Computer Emergency Response Team)"
+  ],
+  "idc": [
+    "인터넷데이터센터(IDC, Internet Data Center)"
+  ],
+  "internet data center": [
+    "인터넷데이터센터(IDC, Internet Data Center)"
+  ],
+  "mso": [
+    "복수 종합유선방송 사업자(MSO, Multiple System Operator)"
+  ],
+  "multiple system operator": [
+    "복수 종합유선방송 사업자(MSO, Multiple System Operator)"
+  ],
+  "so": [
+    "종합유선방송 사업자(SO, System Operator)"
+  ],
+  "system operator": [
+    "종합유선방송 사업자(SO, System Operator)"
+  ],
+  "isp": [
+    "인터넷 서비스 제공사업자(ISP, Internet Service Provider)"
+  ],
+  "internet service provider": [
+    "인터넷 서비스 제공사업자(ISP, Internet Service Provider)"
+  ],
+  "industrial control system": [
+    "ICS(Industrial Control System)"
+  ],
+  "ics": [
+    "ICS(Industrial Control System)"
+  ],
+  "스마트홈": [
+    "스마트홈"
+  ],
+  "디지털헬스케어": [
+    "디지털헬스케어"
+  ],
+  "스마트시티": [
+    "스마트시티"
+  ],
+  "스마트공장": [
+    "스마트공장"
+  ],
+  "자율주행차": [
+    "자율주행차"
+  ],
+  "융합보안": [
+    "융합보안"
+  ],
+  "voice over lte": [
+    "VoLTE(Voice over LTE)"
+  ],
+  "volte": [
+    "VoLTE(Voice over LTE)"
+  ],
+  "rooting": [
+    "루팅(Rooting)"
+  ],
+  "jailbreak": [
+    "탈옥(JailBreak)"
+  ],
+  "스파이앱": [
+    "스파이앱"
+  ],
+  "malicious app": [
+    "악성앱(Malicious App)"
+  ],
+  "app store": [
+    "앱스토어(App Store)"
+  ],
+  "app": [
+    "앱(App)"
+  ],
+  "ios": [
+    "iOS"
+  ],
+  "android": [
+    "안드로이드(Android)"
+  ],
+  "5g": [
+    "5G"
+  ],
+  "4g": [
+    "4G"
+  ],
+  "bluetooth": [
+    "블루투스(Bluetooth)"
+  ],
+  "wireless broadband internet": [
+    "WiBro(Wireless Broadband Internet)"
+  ],
+  "wibro": [
+    "WiBro(Wireless Broadband Internet)"
+  ],
+  "wireless fidelity": [
+    "WiFi(Wireless fidelity)"
+  ],
+  "wifi": [
+    "WiFi(Wireless fidelity)"
+  ],
+  "access point": [
+    "AP(Access Point)"
+  ],
+  "ap": [
+    "AP(Access Point)"
+  ],
+  "active directory": [
+    "액티브 디렉터리(Active Directory, AD)"
+  ],
+  "ad": [
+    "액티브 디렉터리(Active Directory, AD)"
+  ],
+  "uc browser": [
+    "UC브라우저(UC Browser)"
+  ],
+  "uc": [
+    "UC브라우저(UC Browser)"
+  ],
+  "chatter robot": [
+    "챗봇(Chatter Robot)"
+  ],
+  "ccleaner": [
+    "씨클리너(CCleaner)"
+  ],
+  "azure stack": [
+    "애저스택(Azure Stack)"
+  ],
+  "embedded": [
+    "임베디드(Embedded)"
+  ],
+  "os": [
+    "시큐어OS",
+    "운영체제(OS : Operating System)"
+  ],
+  "sw": [
+    "SW개발보안(시큐어코딩,Secure Coding)"
+  ],
+  "secure coding": [
+    "SW개발보안(시큐어코딩,Secure Coding)"
+  ],
+  "video on demand": [
+    "VOD(Video On Demand)"
+  ],
+  "vod": [
+    "VOD(Video On Demand)"
+  ],
+  "codec": [
+    "코덱(Codec)"
+  ],
+  "windows media player": [
+    "윈도우 미디어 플레이어(Windows Media Player)"
+  ],
+  "python": [
+    "파이선(Python)"
+  ],
+  "professional html preprocessor": [
+    "PHP(Professional HTML Preprocessor)"
+  ],
+  "php": [
+    "PHP(Professional HTML Preprocessor)"
+  ],
+  "flash": [
+    "플래쉬(Flash)"
+  ],
+  "joint photographic coding experts group": [
+    "JPG(Joint Photographic coding experts Group)"
+  ],
+  "jpg": [
+    "JPG(Joint Photographic coding experts Group)"
+  ],
+  "oracle jre": [
+    "오라클 자바 소프트웨어 실행 환경(Oracle JRE)\n   (JRE : Jave Runtime Environment)"
+  ],
+  "jre": [
+    "오라클 자바 소프트웨어 실행 환경(Oracle JRE)\n   (JRE : Jave Runtime Environment)"
+  ],
+  "jave runtime environment": [
+    "오라클 자바 소프트웨어 실행 환경(Oracle JRE)\n   (JRE : Jave Runtime Environment)"
+  ],
+  "java": [
+    "자바(Java)"
+  ],
+  "키보드 보안프로그램": [
+    "키보드 보안프로그램"
+  ],
+  "clickonce": [
+    "클릭원스(ClickOnce)"
+  ],
+  "activex": [
+    "ActiveX"
+  ],
+  "web hosting": [
+    "웹 호스팅(Web Hosting)"
+  ],
+  "safe browsing": [
+    "세이프 브라우징(Safe Browsing)"
+  ],
+  "code signing": [
+    "코드 서명(Code Signing)"
+  ],
+  "iframe": [
+    "아이프레임(iframe, inline frame)"
+  ],
+  "inline frame": [
+    "아이프레임(iframe, inline frame)"
+  ],
+  "was": [
+    "웹어플리케이션 서버(WAS, Web Application Server)"
+  ],
+  "web application server": [
+    "웹어플리케이션 서버(WAS, Web Application Server)"
+  ],
+  "web application": [
+    "웹어플리케이션(Web Application)"
+  ],
+  "web-browser": [
+    "웹브라우저(Web-browser)"
+  ],
+  "web-server": [
+    "웹서버(Web-server)"
+  ],
+  "html5": [
+    "HTML5"
+  ],
+  "hypertext markup language": [
+    "HTML(HyperText Markup Language)"
+  ],
+  "html": [
+    "HTML(HyperText Markup Language)"
+  ],
+  "homepage": [
+    "홈페이지(Homepage)"
+  ],
+  "dark web": [
+    "다크웹(Dark Web, Deep Web)"
+  ],
+  "deep web": [
+    "다크웹(Dark Web, Deep Web)"
+  ],
+  "web": [
+    "웹(Web, World Wide Web)"
+  ],
+  "world wide web": [
+    "웹(Web, World Wide Web)"
+  ],
+  "remote desktop protocol": [
+    "RDP(Remote Desktop Protocol)"
+  ],
+  "rdp": [
+    "RDP(Remote Desktop Protocol)"
+  ],
+  "media access control address": [
+    "MAC 주소(Media access control address)"
+  ],
+  "mac": [
+    "MAC 주소(Media access control address)"
+  ],
+  "dynamic ip address": [
+    "유동 IP(Dynamic IP address)"
+  ],
+  "ip": [
+    "유동 IP(Dynamic IP address)",
+    "고정 IP(Static IP address)",
+    "IP 스푸핑(IP Spoofing)"
+  ],
+  "static ip address": [
+    "고정 IP(Static IP address)"
+  ],
+  "the onion routing": [
+    "Tor(The Onion Routing)"
+  ],
+  "tor": [
+    "Tor(The Onion Routing)"
+  ],
+  "contents delivery network": [
+    "CDN(Contents Delivery Network)"
+  ],
+  "cdn": [
+    "CDN(Contents Delivery Network)"
+  ],
+  "backbone network": [
+    "백본망(Backbone Network)"
+  ],
+  "ix": [
+    "인터넷 연동구간(IX, Internet eXchange)"
+  ],
+  "internet exchange": [
+    "인터넷 연동구간(IX, Internet eXchange)"
+  ],
+  "routing": [
+    "라우팅(Routing)"
+  ],
+  "pps": [
+    "pps(packet per second pulse per second, pictures per second)"
+  ],
+  "packet per second pulse per second": [
+    "pps(packet per second pulse per second, pictures per second)"
+  ],
+  "pictures per second": [
+    "pps(packet per second pulse per second, pictures per second)"
+  ],
+  "bit per second": [
+    "bps(bit per second)"
+  ],
+  "bps": [
+    "bps(bit per second)"
+  ],
+  "traffic": [
+    "트래픽(Traffic)"
+  ],
+  "packet": [
+    "패킷(Packet)"
+  ],
+  "soar": [
+    "SOAR(Security Orchestration, Automation and Response)"
+  ],
+  "security orchestration": [
+    "SOAR(Security Orchestration, Automation and Response)"
+  ],
+  "automation and response": [
+    "SOAR(Security Orchestration, Automation and Response)"
+  ],
+  "security information and event management": [
+    "SIEM(Security Information and Event Management)"
+  ],
+  "siem": [
+    "SIEM(Security Information and Event Management)"
+  ],
+  "trunked radio service": [
+    "TRS(Trunked Radio Service)"
+  ],
+  "trs": [
+    "TRS(Trunked Radio Service)"
+  ],
+  "local area network": [
+    "LAN(Local Area Network)"
+  ],
+  "lan": [
+    "LAN(Local Area Network)"
+  ],
+  "asymmetric digital subscriber line modem": [
+    "ADSL 모뎀(Asymmetric Digital Subscriber Line Modem)"
+  ],
+  "adsl": [
+    "ADSL 모뎀(Asymmetric Digital Subscriber Line Modem)"
+  ],
+  "set top box": [
+    "셋톱박스(Set Top Box)"
+  ],
+  "supervisory control and data acquisition": [
+    "SCADA(Supervisory Control and Data Acquisition)"
+  ],
+  "scada": [
+    "SCADA(Supervisory Control and Data Acquisition)"
+  ],
+  "proxy": [
+    "프락시(Proxy)"
+  ],
+  "공유기": [
+    "공유기"
+  ],
+  "switch": [
+    "스위치(Switch)"
+  ],
+  "router": [
+    "라우터(Router)"
+  ],
+  "gateway": [
+    "게이트웨이(Gateway, 관문국)"
+  ],
+  "enterprise management system": [
+    "EMS(Enterprise Management System)"
+  ],
+  "ems": [
+    "EMS(Enterprise Management System)"
+  ],
+  "edr": [
+    "EDR(Endpoint Detection & Response)"
+  ],
+  "endpoint detection": [
+    "EDR(Endpoint Detection & Response)"
+  ],
+  "response": [
+    "EDR(Endpoint Detection & Response)"
+  ],
+  "enterprise security management": [
+    "ESM(Enterprise Security Management)"
+  ],
+  "esm": [
+    "ESM(Enterprise Security Management)"
+  ],
+  "voice over internet protocol": [
+    "VoIP(Voice over Internet Protocol)"
+  ],
+  "voip": [
+    "VoIP(Voice over Internet Protocol)"
+  ],
+  "virus wall": [
+    "바이러스 월(Virus Wall)"
+  ],
+  "web-firewall": [
+    "웹방화벽(Web-Firewall)"
+  ],
+  "f/w": [
+    "방화벽(F/W, Firewall)"
+  ],
+  "firewall": [
+    "방화벽(F/W, Firewall)"
+  ],
+  "ips": [
+    "침입 방지 시스템(IPS, Intrusion Prevention System)"
+  ],
+  "intrusion prevention system": [
+    "침입 방지 시스템(IPS, Intrusion Prevention System)"
+  ],
+  "ids": [
+    "침입 탐지 시스템(IDS, Intrusion Detection System)"
+  ],
+  "intrusion detection system": [
+    "침입 탐지 시스템(IDS, Intrusion Detection System)"
+  ],
+  "vpn": [
+    "VPN(가상 사설망, Virtual Private Network)"
+  ],
+  "virtual private network": [
+    "VPN(가상 사설망, Virtual Private Network)"
+  ],
+  "internet protocol version 6": [
+    "IPv6(Internet Protocol version 6)"
+  ],
+  "ipv6": [
+    "IPv6(Internet Protocol version 6)"
+  ],
+  "internet protocol version": [
+    "IPv6(Internet Protocol version 6)",
+    "IPv4(Internet Protocol version 4)"
+  ],
+  "internet protocol version 4": [
+    "IPv4(Internet Protocol version 4)"
+  ],
+  "ipv4": [
+    "IPv4(Internet Protocol version 4)"
+  ],
+  "service discovery protocol": [
+    "SDP(Service Discovery Protocol)"
+  ],
+  "sdp": [
+    "SDP(Service Discovery Protocol)"
+  ],
+  "bluetooth network encapsulation protocol": [
+    "BNEP(Bluetooth Network Encapsulation Protocol)"
+  ],
+  "bnep": [
+    "BNEP(Bluetooth Network Encapsulation Protocol)"
+  ],
+  "server message block": [
+    "SMB(Server Message Block)"
+  ],
+  "smb": [
+    "SMB(Server Message Block)"
+  ],
+  "network time protocol": [
+    "NTP(Network Time Protocol)"
+  ],
+  "ntp": [
+    "NTP(Network Time Protocol)"
+  ],
+  "secure shell": [
+    "SSH(Secure Shell)"
+  ],
+  "ssh": [
+    "SSH(Secure Shell)"
+  ],
+  "telecommunication network": [
+    "Telnet(Telecommunication Network)"
+  ],
+  "telnet": [
+    "Telnet(Telecommunication Network)"
+  ],
+  "simple network management protocol": [
+    "SNMP(Simple Network Management Protocol)"
+  ],
+  "snmp": [
+    "SNMP(Simple Network Management Protocol)"
+  ],
+  "openssl": [
+    "OpenSSL"
+  ],
+  "transport layer security": [
+    "TLS (Transport Layer Security)"
+  ],
+  "tls": [
+    "TLS (Transport Layer Security)"
+  ],
+  "secure sockets layer": [
+    "SSL(Secure Sockets Layer)"
+  ],
+  "ssl": [
+    "SSL(Secure Sockets Layer)"
+  ],
+  "file transfer protocol": [
+    "FTP(File Transfer Protocol)"
+  ],
+  "ftp": [
+    "FTP(File Transfer Protocol)"
+  ],
+  "dynamic domain name system": [
+    "DDNS(Dynamic Domain Name System)"
+  ],
+  "ddns": [
+    "DDNS(Dynamic Domain Name System)"
+  ],
+  "domain name system": [
+    "DNS(Domain Name System)"
+  ],
+  "dns": [
+    "DNS(Domain Name System)",
+    "DNS체인저(DNSChanger)",
+    "DNS 스푸핑",
+    "DNS 캐시 포이즈닝"
+  ],
+  "user datagram protocol": [
+    "UDP(User Datagram Protocol)"
+  ],
+  "udp": [
+    "UDP(User Datagram Protocol)"
+  ],
+  "transmission control protocol": [
+    "TCP(Transmission Control Protocol)"
+  ],
+  "tcp": [
+    "TCP(Transmission Control Protocol)"
+  ],
+  "hyper text transfer protocol secure": [
+    "HTTPS(Hyper Text Transfer Protocol Secure)"
+  ],
+  "https": [
+    "HTTPS(Hyper Text Transfer Protocol Secure)"
+  ],
+  "protocol": [
+    "프로토콜(Protocol)"
+  ],
+  "cybersecurity ai model": [
+    "사이버 보안 AI학습모델(Cybersecurity AI Model)"
+  ],
+  "ai": [
+    "사이버 보안 AI학습모델(Cybersecurity AI Model)",
+    "사이버 보안 AI학습용 데이터셋(Cybersecurity AI Training Dataset)",
+    "인공지능(AI, Artificial Intelligence)"
+  ],
+  "cybersecurity ai training dataset": [
+    "사이버 보안 AI학습용 데이터셋(Cybersecurity AI Training Dataset)"
+  ],
+  "cybersecurity bigdata": [
+    "사이버 보안 빅데이터(Cybersecurity Bigdata)"
+  ],
+  "cyber threat information": [
+    "사이버 위협정보(Cyber Threat Information)"
+  ],
+  "deep learning": [
+    "딥러닝(Deep Learning, 심층학습)"
+  ],
+  "machine learning": [
+    "머신러닝(Machine Learning, 기계학습)"
+  ],
+  "weak ai": [
+    "약인공지능(weak AI)"
+  ],
+  "strong ai": [
+    "강인공지능(strong AI, AGI, 범용인공지능)"
+  ],
+  "agi": [
+    "강인공지능(strong AI, AGI, 범용인공지능)"
+  ],
+  "artificial intelligence": [
+    "인공지능(AI, Artificial Intelligence)"
+  ],
+  "log4j": [
+    "Log4j 취약점"
+  ],
+  "blueborne": [
+    "블루본(BlueBorne) 취약점"
+  ],
+  "stagefright": [
+    "Stagefright 취약점"
+  ],
+  "freak": [
+    "FREAK 취약점"
+  ],
+  "venom": [
+    "VENOM 취약점"
+  ],
+  "eternalblue": [
+    "이터널블루(EternalBlue)"
+  ],
+  "ghost": [
+    "Ghost 취약점"
+  ],
+  "쉘쇼크 취약점": [
+    "쉘쇼크 취약점"
+  ],
+  "shodan": [
+    "쇼단(Shodan)"
+  ],
+  "heartbleed": [
+    "하트블리드(Heartbleed)"
+  ],
+  "owasp": [
+    "오픈 웹어플리케이션 보안 프로젝트(OWASP)"
+  ],
+  "bug bounty": [
+    "버그바운티(Bug Bounty)"
+  ],
+  "security advisory": [
+    "보안 권고문(Security Advisory)"
+  ],
+  "security patch": [
+    "보안 패치(Security Patch), 보안 업데이트(Security Update)"
+  ],
+  "security update": [
+    "보안 패치(Security Patch), 보안 업데이트(Security Update)"
+  ],
+  "poc": [
+    "개념 증명 코드(PoC, Proof of Concept)"
+  ],
+  "proof of concept": [
+    "개념 증명 코드(PoC, Proof of Concept)"
+  ],
+  "oneday": [
+    "원데이(Oneday, 1-day)"
+  ],
+  "day": [
+    "원데이(Oneday, 1-day)",
+    "제로데이(Zeroday, 0-day)"
+  ],
+  "zeroday": [
+    "제로데이(Zeroday, 0-day)"
+  ],
+  "korea vulnerabilities and exposures": [
+    "KVE(Korea Vulnerabilities and Exposures)"
+  ],
+  "kve": [
+    "KVE(Korea Vulnerabilities and Exposures)"
+  ],
+  "cve numbering authorities": [
+    "CNA(CVE Numbering Authorities)"
+  ],
+  "cna": [
+    "CNA(CVE Numbering Authorities)"
+  ],
+  "common vulnerabilities and exposures": [
+    "CVE(Common Vulnerabilities and Exposures)"
+  ],
+  "cve": [
+    "CVE(Common Vulnerabilities and Exposures)"
+  ],
+  "common weakness enumeration": [
+    "CWE(Common Weakness Enumeration)"
+  ],
+  "cwe": [
+    "CWE(Common Weakness Enumeration)"
+  ],
+  "vulnerability": [
+    "보안취약점(Vulnerability)"
+  ],
+  "weakness": [
+    "보안약점(Weakness)"
+  ],
+  "ttp": [
+    "TTP(Tactic, Technique, Procedure)"
+  ],
+  "tactic": [
+    "TTP(Tactic, Technique, Procedure)"
+  ],
+  "technique": [
+    "TTP(Tactic, Technique, Procedure)",
+    "MITRE ATT&CK(Adversarial Tactics, Technique, and Common Knowledge)"
+  ],
+  "procedure": [
+    "TTP(Tactic, Technique, Procedure)"
+  ],
+  "mitre att": [
+    "MITRE ATT&CK(Adversarial Tactics, Technique, and Common Knowledge)"
+  ],
+  "ck": [
+    "MITRE ATT&CK(Adversarial Tactics, Technique, and Common Knowledge)"
+  ],
+  "adversarial tactics": [
+    "MITRE ATT&CK(Adversarial Tactics, Technique, and Common Knowledge)"
+  ],
+  "and common knowledge": [
+    "MITRE ATT&CK(Adversarial Tactics, Technique, and Common Knowledge)"
+  ],
+  "virus total": [
+    "바이러스 토탈(Virus Total)"
+  ],
+  "message-digest algorithm 5": [
+    "MD5(Message-Digest algorithm 5)"
+  ],
+  "md5": [
+    "MD5(Message-Digest algorithm 5)"
+  ],
+  "message-digest algorithm": [
+    "MD5(Message-Digest algorithm 5)"
+  ],
+  "fuzzing": [
+    "퍼징(Fuzzing)"
+  ],
+  "pattern": [
+    "패턴(Pattern)"
+  ],
+  "event": [
+    "이벤트(Event)"
+  ],
+  "reverse engineering": [
+    "역공학(Reverse Engineering)"
+  ],
+  "로그 분석": [
+    "로그 분석"
+  ],
+  "이미지 분석": [
+    "이미지 분석"
+  ],
+  "penetration testing": [
+    "모의 해킹(Penetration Testing)"
+  ],
+  "sandbox": [
+    "샌드박스(Sandbox)"
+  ],
+  "vdi": [
+    "VDI(Virtual Desktop Infrastructure, 데스크탑 가상화)"
+  ],
+  "virtual desktop infrastructure": [
+    "VDI(Virtual Desktop Infrastructure, 데스크탑 가상화)"
+  ],
+  "virtualization": [
+    "가상화(Virtualization)"
+  ],
+  "decoding": [
+    "디코딩(Decoding)"
+  ],
+  "encoding": [
+    "인코딩(Encoding)"
+  ],
+  "code inspection": [
+    "코드 인스펙션(Code Inspection) 도구"
+  ],
+  "script": [
+    "스크립트(Script)"
+  ],
+  "registry": [
+    "레지스트리(Registry)"
+  ],
+  "kernel": [
+    "커널(Kernel)"
+  ],
+  "operating system": [
+    "운영체제(OS : Operating System)"
+  ],
+  "digital forensic": [
+    "디지털 포렌직(Digital Forensic)"
+  ],
+  "command and control": [
+    "명령·제어 서버(C&C, Command and Control)"
+  ],
+  "botnet": [
+    "봇넷(Botnet)"
+  ],
+  "zombiepc": [
+    "좀비PC(ZombiePC)"
+  ],
+  "경유지 사이트": [
+    "경유지 사이트"
+  ],
+  "유포지 사이트": [
+    "유포지 사이트"
+  ],
+  "악성코드 은닉사이트": [
+    "악성코드 은닉사이트"
+  ],
+  "magniber": [
+    "매그니베르(Magniber) 랜섬웨어"
+  ],
+  "gwisin": [
+    "귀신(Gwisin) 랜섬웨어"
+  ],
+  "venuslocker": [
+    "비너스락커(VenusLocker)"
+  ],
+  "erebus": [
+    "에레버스(Erebus)"
+  ],
+  "cryptolocker": [
+    "크립토락커(CryptoLocker)"
+  ],
+  "locky": [
+    "록키(Locky)"
+  ],
+  "petya": [
+    "페트야(Petya)"
+  ],
+  "wannacrypt": [
+    "워너크라이(WannaCrypt)"
+  ],
+  "mirai": [
+    "미라이(Mirai)"
+  ],
+  "remote access trojan": [
+    "원격제어도구(Remote Access Trojan : RAT)"
+  ],
+  "rat": [
+    "원격제어도구(Remote Access Trojan : RAT)"
+  ],
+  "zeus": [
+    "제우스(ZeuS)"
+  ],
+  "onlinegamehack": [
+    "온라인게임핵(OnlineGameHack)"
+  ],
+  "rustock": [
+    "러스턱(Rustock)"
+  ],
+  "dnschanger": [
+    "DNS체인저(DNSChanger)"
+  ],
+  "poison ivy": [
+    "포이즌 아이비(Poison Ivy)"
+  ],
+  "duqu": [
+    "듀큐(Duqu)"
+  ],
+  "stuxnet": [
+    "스턱스넷(Stuxnet)"
+  ],
+  "slammer worm": [
+    "슬래머웜(Slammer Worm)"
+  ],
+  "exploit kit": [
+    "익스플로잇 킷(Exploit Kit)"
+  ],
+  "ransomware": [
+    "랜섬웨어(Ransomware)"
+  ],
+  "crimeware": [
+    "크라임웨어(Crimeware)"
+  ],
+  "adware": [
+    "애드웨어(Adware)"
+  ],
+  "spyware": [
+    "스파이웨어(Spyware)"
+  ],
+  "keylogger": [
+    "키로거(Keylogger)"
+  ],
+  "rootkit": [
+    "루트킷(Rootkit)"
+  ],
+  "backdoor": [
+    "백도어(Backdoor) 또는 트랩도어(Trapdoor)"
+  ],
+  "trapdoor": [
+    "백도어(Backdoor) 또는 트랩도어(Trapdoor)"
+  ],
+  "bot": [
+    "악성봇(Bot)"
+  ],
+  "trojan": [
+    "트로이목마(Trojan)"
+  ],
+  "worm": [
+    "웜(Worm)"
+  ],
+  "virus": [
+    "바이러스(Virus)"
+  ],
+  "malware": [
+    "멀웨어(Malware)"
+  ],
+  "malicious code/program": [
+    "악성코드(Malicious Code/Program)",
+    "악성코드(Malicious Code/program) 유포"
+  ],
+  "cache-control attack": [
+    "CC Attack(Cache-Control Attack)"
+  ],
+  "cc attack": [
+    "CC Attack(Cache-Control Attack)"
+  ],
+  "slow get flooding attack": [
+    "HTTP Slow Attack(Slow GET Flooding Attack)"
+  ],
+  "http slow attack": [
+    "HTTP Slow Attack(Slow GET Flooding Attack)"
+  ],
+  "slowloris attack": [
+    "Slowloris Attack"
+  ],
+  "slow post attack": [
+    "Slow POST Attack"
+  ],
+  "get flooding attack": [
+    "GET Flooding Attack"
+  ],
+  "http continuation attack": [
+    "HTTP Continuation Attack"
+  ],
+  "teardrop attack": [
+    "Teardrop Attack"
+  ],
+  "land attack": [
+    "LAND Attack"
+  ],
+  "tcp flags flooding attack": [
+    "TCP Flags Flooding Attack"
+  ],
+  "icmp flooding attack": [
+    "ICMP Flooding Attack"
+  ],
+  "udp flooding attack": [
+    "UDP Flooding Attack"
+  ],
+  "distributed denial of service attack": [
+    "DDoS 공격 (분산 서비스 거부 공격, Distributed Denial of Service Attack)"
+  ],
+  "kill chain": [
+    "킬체인(Kill Chain)"
+  ],
+  "atm": [
+    "ATM 해킹"
+  ],
+  "supply chain attack": [
+    "공급망 사슬 공격(Supply Chain Attack)"
+  ],
+  "dbd": [
+    "드라이브 바이 다운로드(DBD, Drive By Download)"
+  ],
+  "drive by download": [
+    "드라이브 바이 다운로드(DBD, Drive By Download)"
+  ],
+  "파라미터 변조": [
+    "파라미터 변조"
+  ],
+  "address resolution protocol spoofing": [
+    "ARP 스푸핑(Address Resolution Protocol Spoofing)"
+  ],
+  "arp": [
+    "ARP 스푸핑(Address Resolution Protocol Spoofing)"
+  ],
+  "ip spoofing": [
+    "IP 스푸핑(IP Spoofing)"
+  ],
+  "spoofing": [
+    "스푸핑(Spoofing)"
+  ],
+  "cache poisoning": [
+    "캐시 포이즈닝(Cache Poisoning)"
+  ],
+  "sniffing": [
+    "스니핑(Sniffing)"
+  ],
+  "xss": [
+    "XSS(Cross-site Scripting, 크로스 사이트 스크립팅)"
+  ],
+  "cross-site scripting": [
+    "XSS(Cross-site Scripting, 크로스 사이트 스크립팅)"
+  ],
+  "sql injection": [
+    "SQL 인젝션(SQL Injection)"
+  ],
+  "sql": [
+    "SQL 인젝션(SQL Injection)"
+  ],
+  "webshell": [
+    "웹셸(Webshell)"
+  ],
+  "web hacking": [
+    "웹 해킹(Web Hacking)"
+  ],
+  "buffer overflows": [
+    "버퍼 오버플로우(Buffer Overflows)"
+  ],
+  "exploit": [
+    "익스플로잇(Exploit)"
+  ],
+  "scan": [
+    "스캔(Scan)"
+  ],
+  "dictionary attack": [
+    "사전공격(辭典공격, Dictionary Attack)"
+  ],
+  "권한상승": [
+    "권한상승"
+  ],
+  "화면 해킹": [
+    "화면 해킹"
+  ],
+  "memory hacking": [
+    "메모리 해킹(Memory Hacking)"
+  ],
+  "keyboard hacking": [
+    "키보드 해킹(Keyboard Hacking)"
+  ],
+  "spear phishing": [
+    "스피어피싱(Spear Phishing)"
+  ],
+  "watering hole": [
+    "워터링 홀(Watering Hole)"
+  ],
+  "사회공학적 기법": [
+    "사회공학적 기법"
+  ],
+  "zeroday attack": [
+    "제로데이 공격(Zeroday Attack)"
+  ],
+  "apt": [
+    "지능형 지속 공격(APT, Advanced Persistent Threat)"
+  ],
+  "advanced persistent threat": [
+    "지능형 지속 공격(APT, Advanced Persistent Threat)"
+  ],
+  "음성스팸": [
+    "음성스팸"
+  ],
+  "불법스팸": [
+    "불법스팸"
+  ],
+  "smishing": [
+    "스미싱(Smishing)"
+  ],
+  "pharming": [
+    "파밍(Pharming)"
+  ],
+  "phishing": [
+    "피싱(Phishing)"
+  ],
+  "homepage defacement": [
+    "홈페이지 변조(Homepage Defacement)"
+  ],
+  "distributed denial of service": [
+    "분산 서비스 거부 공격(DDoS, Distributed Denial Of Service)"
+  ],
+  "hacking": [
+    "해킹(Hacking)"
+  ]
+}
