@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kohelp"
+version = "0.1.0"
+description = "Korean translator for Linux man pages"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+kohelp = "kohelp:main"
+
+[tool.setuptools]
+py-modules = ["kohelp"]
+include-package-data = true
+
+[tool.setuptools.data-files]
+"share/kohelp/json" = ["json/tta_terms_en_ko_clean.json"]
