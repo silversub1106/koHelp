@@ -96,7 +96,22 @@ def main() -> int:
 
 
 def run_source(command: str, man_request: list[str]) -> tuple[str, str]:
-    """man 페이지 시도 → 실패 시 --help 폴백. (텍스트, 소스타입) 반환"""
+    """Try command --help first, then fall back to man output."""
+    real_cmd = shutil.which(command)
+    if not real_cmd:
+        raise SystemExit(f"Command '{command}' not found.")
+
+    proc = subprocess.run(
+        [real_cmd, "--help"],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        check=False,
+    )
+    output = proc.stdout or proc.stderr
+    text = output.decode("utf-8", errors="replace")
+    if text.strip():
+        return clean_man_text(text), "help"
+
     real_man = shutil.which("man")
     if real_man:
         env = os.environ.copy()
@@ -114,19 +129,7 @@ def run_source(command: str, man_request: list[str]) -> tuple[str, str]:
             text = (proc.stdout or proc.stderr).decode("utf-8", errors="replace")
             return clean_man_text(text), "man"
 
-    real_cmd = shutil.which(command)
-    if not real_cmd:
-        raise SystemExit(f"'{command}' 명령어를 찾을 수 없습니다. man-db 또는 해당 도구를 설치하세요.")
-
-    proc = subprocess.run(
-        [real_cmd, "--help"],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        check=False,
-    )
-    output = proc.stdout or proc.stderr
-    text = output.decode("utf-8", errors="replace")
-    return clean_man_text(text), "help"
+    raise SystemExit(f"Could not read help text for '{command}' from --help or man.")
 
 
 def clean_man_text(text: str) -> str:
