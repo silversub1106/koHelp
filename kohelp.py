@@ -18,7 +18,7 @@ from pathlib import Path
 APP = "kohelp"
 DEFAULT_MODEL = "gemini-2.5-flash-lite"
 API_BASE = "https://generativelanguage.googleapis.com/v1beta"
-PROMPT_VERSION = "simple-v1"
+PROMPT_VERSION = "security-v1"
 
 
 def main() -> int:
@@ -51,7 +51,7 @@ def main() -> int:
         return 2
 
     man_request = ([args.section] if args.section else []) + [args.command] + args.man_args
-    source = run_man(man_request)
+    source, source_type = run_source(args.command, man_request)
     if args.original:
         print(source, end="" if source.endswith("\n") else "\n")
         return 0
@@ -82,7 +82,7 @@ def main() -> int:
     api_key = get_api_key()
     glossary = load_glossary(glossary_path)
 
-    log(args.quiet, f"man {' '.join(man_request)} 수집 완료")
+    log(args.quiet, f"{args.command} ({source_type}) 수집 완료")
     log(args.quiet, "LLM이 전문용어 후보를 추출하는 중")
     llm_terms = extract_terms_with_llm(source, api_key=api_key, model=args.model)
     matched_terms = lookup_terms(llm_terms, glossary)
@@ -95,28 +95,38 @@ def main() -> int:
     return 0
 
 
-def run_man(man_request: list[str]) -> str:
+def run_source(command: str, man_request: list[str]) -> tuple[str, str]:
+    """man 페이지 시도 → 실패 시 --help 폴백. (텍스트, 소스타입) 반환"""
     real_man = shutil.which("man")
-    if not real_man:
-        raise SystemExit("man command not found. Install man-db first.")
+    if real_man:
+        env = os.environ.copy()
+        env["MANPAGER"] = "cat"
+        env["PAGER"] = "cat"
+        env.pop("MAN_KEEP_FORMATTING", None)
+        proc = subprocess.run(
+            [real_man, *man_request],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            env=env,
+            check=False,
+        )
+        if proc.returncode == 0:
+            text = (proc.stdout or proc.stderr).decode("utf-8", errors="replace")
+            return clean_man_text(text), "man"
 
-    env = os.environ.copy()
-    env["MANPAGER"] = "cat"
-    env["PAGER"] = "cat"
-    env.pop("MAN_KEEP_FORMATTING", None)
+    real_cmd = shutil.which(command)
+    if not real_cmd:
+        raise SystemExit(f"'{command}' 명령어를 찾을 수 없습니다. man-db 또는 해당 도구를 설치하세요.")
+
     proc = subprocess.run(
-        [real_man, *man_request],
+        [real_cmd, "--help"],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        env=env,
         check=False,
     )
     output = proc.stdout or proc.stderr
     text = output.decode("utf-8", errors="replace")
-    text = clean_man_text(text)
-    if proc.returncode != 0:
-        raise SystemExit(text.strip() or f"man exited with code {proc.returncode}")
-    return text
+    return clean_man_text(text), "help"
 
 
 def clean_man_text(text: str) -> str:
@@ -133,12 +143,12 @@ def clean_man_text(text: str) -> str:
 def extract_terms_with_llm(text: str, *, api_key: str, model: str) -> list[str]:
     prompt = "\n".join(
         [
-            "Extract English technical terms from this Linux man page.",
+            "Extract English technical terms from this security CLI tool help text.",
             "Return only a JSON array of strings.",
-            "Prefer Linux, security, programming, filesystem, process, option, and networking terms.",
+            "Prefer cybersecurity, networking, exploit, vulnerability, privilege, authentication, and hacking terms.",
             "Do not include normal sentence fragments.",
             "",
-            "[MAN_TEXT]",
+            "[HELP_TEXT]",
             text,
         ]
     )
@@ -152,19 +162,20 @@ def translate_with_llm(text: str, terms: dict[str, list[str]], *, api_key: str, 
         glossary_lines = "(none)"
     prompt = "\n".join(
         [
-            "Translate this Linux man page into Korean.",
+            "Translate this security CLI tool help text into Korean.",
             "Rules:",
-            "- Preserve command names, option flags, arguments, paths, examples, indentation, and man references.",
-            "- Translate normal English sentences naturally.",
+            "- Preserve command names, option flags, arguments, paths, examples, and indentation.",
+            "- Translate normal English sentences naturally into Korean.",
             "- Apply the glossary terms when they appear in the original text.",
             "- If a glossary term has multiple Korean candidates, choose the best one for context.",
+            "- Use cybersecurity industry Korean expressions (e.g. 페이로드, 익스플로잇, 권한 상승).",
             "- Do not add new explanations.",
-            "- Return only the translated man page.",
+            "- Return only the translated help text.",
             "",
             "[GLOSSARY]",
             glossary_lines,
             "",
-            "[MAN_TEXT]",
+            "[HELP_TEXT]",
             text,
         ]
     )
@@ -184,7 +195,7 @@ def gemini_generate(prompt: str, *, api_key: str, model: str) -> str:
         method="POST",
     )
     try:
-        with urllib.request.urlopen(req, timeout=120) as response:
+        with urllib.request.urlopen(req, timeout=300) as response:
             data = json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
         message = exc.read().decode("utf-8", errors="replace")
@@ -239,16 +250,16 @@ def lookup_terms(terms: list[str], glossary: dict[str, list[str]]) -> dict[str, 
 
 def find_glossary_path() -> Path:
     candidates = [
-        Path(__file__).resolve().parent / "json" / "tta_terms_en_ko_clean.json",
-        Path(sys.prefix) / "share" / "kohelp" / "json" / "tta_terms_en_ko_clean.json",
-        Path(sysconfig.get_path("data")) / "share" / "kohelp" / "json" / "tta_terms_en_ko_clean.json",
-        Path("~/.local/share/kohelp/json/tta_terms_en_ko_clean.json").expanduser(),
-        Path.cwd() / "json" / "tta_terms_en_ko_clean.json",
+        Path(__file__).resolve().parent / "json" / "security_terms_en_ko.json",
+        Path(sys.prefix) / "share" / "kohelp" / "json" / "security_terms_en_ko.json",
+        Path(sysconfig.get_path("data")) / "share" / "kohelp" / "json" / "security_terms_en_ko.json",
+        Path("~/.local/share/kohelp/json/security_terms_en_ko.json").expanduser(),
+        Path.cwd() / "json" / "security_terms_en_ko.json",
     ]
     for path in candidates:
         if path.exists():
             return path
-    raise SystemExit("tta_terms_en_ko_clean.json not found.")
+    raise SystemExit("security_terms_en_ko.json not found.")
 
 
 def get_api_key() -> str:

@@ -18,4 +18,4 @@ py-modules = ["kohelp"]
 include-package-data = true
 
 [tool.setuptools.data-files]
-"share/kohelp/json" = ["json/tta_terms_en_ko_clean.json"]
+"share/kohelp/json" = ["json/security_terms_en_ko.json"]
